@@ -1,0 +1,257 @@
+/** index page **/
+
+.nav-link:hover {
+
+    border-bottom: 1px solid green;
+  }
+
+  .name-book {
+    color: black;
+    text-decoration: none;
+  }
+
+  .name-book:hover {
+    color: rgb(71, 73, 194);
+  }
+
+  .title-book {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .category-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .category-item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px;
+  }
+
+  .list-category {
+    width: 95%;
+    text-align: center;
+  }
+
+  .title {
+    margin: 30px 0px;
+    text-align: center;
+
+  }
+
+  .nav-item {
+    margin: 0px;
+    padding: 7px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .nav-item a:hover {
+    color: cornflowerblue;
+  }
+
+
+  @media screen and (min-width: 576px) {
+    .carousel-inner-driver {
+      display: flex;
+    }
+
+    .carousel-item-driver {
+      display: block;
+      margin-right: 0;
+      flex: 0 0 calc(100%/ 5);
+    }
+  }
+
+  .title-content {
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .carousel-inner {
+    padding: 1em;
+  }
+
+  .card {
+    margin: 0 0.5em;
+    border-radius: 30px;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    font-size: 0.9em;
+  }
+
+  .card-address {
+    margin: 0 0.5em;
+    border-radius: 30px;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    font-size: 0.9em;
+  }
+
+  .card-body {
+    padding: 0;
+    height: 350px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .card-body img {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+  }
+
+
+  .navbar-nav{
+    margin: 0px;
+ }
+ .nav-item{
+   font-size: 16px;
+ }
+ .footer-page p{
+   padding-top: 15px;
+   font-size: 16px;
+   text-align: center;
+ }
+ .footer-page{
+   border-top: 1px solid black;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+    margin: 20px auto;
+ }
+
+  /*  end index */
+
+  /* book detail */
+  .book-relate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .relate {
+    width: 220px;
+    height: 300px;
+    margin: 0 20px;
+  }
+
+  .relate:hover {
+    background: rgb(211, 208, 208);
+  }
+
+  .relate img {
+    width: 220px;
+    height: 200px;
+  }
+
+  .relate p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+  }
+
+  .relate a {
+    text-decoration: none;
+  }
+
+  .category {
+    width: 30%;
+  }
+
+  .category-item-name ul,
+  li {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 10px 0px;
+    text-align: justify;
+
+  }
+
+  .category-item-name li {
+    width: 100%;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding-left: 50px;
+  }
+
+  .category-item-name li:hover {
+    background: green;
+  }
+
+  .category-item-name a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a.category-name:hover {
+    background-color: #27728f;
+  }
+
+  .book-detail .view-book a {
+    text-decoration: none;
+    color: #e9e9e9;
+  }
+
+  .book-detail-content {
+    border-right: 2px solid #009bd5;
+  }
+
+  .book-detail .view-book {
+    width: 40%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    background: #009bd5;
+    border-radius: 4px;
+    color: #e9e9e9;
+    font-weight: 600;
+  }
+
+  .book-detail .view-book:hover,
+  .category-name:hover {
+    background: #27728f;
+  }
+
+  .book-detail .category-name {
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    background: #009bd5;
+    border-radius: 4px;
+    color: #e9e9e9;
+  }
+
+  .book-title p {
+    margin: 0 5px;
+  }
+
+  .category {
+    margin: 20px;
+  }
+
+  .book-title {
+    margin: 0 20px;
+  }
+
+  .book-detail-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .book-detail {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .book-detail-content img {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+  }

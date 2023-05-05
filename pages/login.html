@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thư viện sách</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background: #e9e9e9;
+    height: 73px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Thư viện
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tâm lý - Kĩ năng</a></li>
+                                <li><a class="dropdown-item" href="#">Khoa học - Kĩ thuật</a></li>
+                                <li><a class="dropdown-item" href="#">Tôn giáo- tâm linh</a></li>
+                                <li><a class="dropdown-item" href="#">Y học - Sức khỏe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./register.html">Đăng ký</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/login.html">Đăng Nhập</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Nhập sách" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="login">
+
+        <form action="" method="get" class="form-login">
+            <div class="form-group">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" placeholder="Tên đặng nhập">
+            </div>
+            <div class="form-group">
+                <label for="pass">Mật khẩu</label>
+                <input type="password" id="pass" placeholder="Mật khẩu">
+            </div>
+
+            <a href="./register.html"> Chưa có tài khoản? Đăng kí ngay</a>
+
+            <div class="form-group">
+                <button id="btn-login"> Đăng nhập</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-page">
+            <p>Được xây dựng nhằm mục đích phụng sự nhân loại phát triển về Trí và Tuệ</p>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+<style>
+    .form-login {
+        width: 400px;
+        padding: 20px;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group a {
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    .form-group #username, #pass, #btn-login
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px 15px;
+    }
+    #btn-login{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 4px;
+        background: green;
+        border: 1px solid green;
+        
+    } 
+    .form-group button:hover{
+        background: #7fe3b9;
+    }
+</style>
